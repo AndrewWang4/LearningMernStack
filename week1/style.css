@@ -49,3 +49,25 @@
 .one {
   font-family: "Ubuntu";
 }
+
+.light {
+  background: white;
+  color: black;
+}
+
+.dark {
+  background: black;
+  color: white;
+}
+
+.dark #darkModeToggle {
+  color: white;
+}
+
+#darkModeToggle {
+  color: black;
+}
+
+.dark .navbar {
+  background-color: grey;
+}
