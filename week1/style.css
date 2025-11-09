@@ -52,7 +52,6 @@
 
 .light {
   background: white;
-  color: black;
 }
 
 .dark {
@@ -69,5 +68,15 @@
 }
 
 .dark .navbar {
-  background-color: grey;
+  background-color: rgb(0, 0, 0);
+}
+
+.icon-color:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.icon-color {
+  color: black;
+  text-decoration: none;
 }
