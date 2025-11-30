@@ -111,7 +111,7 @@ body {
 }
 
 .usevoicemode {
-    background-color: #696969;
+    background-color: #ffffff;
     border: none;
     outline: none;
     color: #ffffff;
@@ -121,7 +121,7 @@ body {
 }
 
 .usevoicemode:hover {
-    background-color: #535353;
+    background-color: #a5a5a5;
     border: none;
     outline: none;
     color: #ffffff;
@@ -150,4 +150,30 @@ body {
     margin: 9px;
     margin-right: 3px;
     border-radius: 100px;
+}
+
+
+#uploadmessage {
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 30px;
+    margin: 9px;
+    border-radius: 100px;
+}
+
+#uploadmessage:hover {
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 30px;
+    margin: 9px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+#disable {
+    display: none;
 }
