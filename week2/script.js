@@ -43,3 +43,15 @@ function value(e) {
         document.getElementById("disable").style.display = "block";
     }
 }
+import { GoogleGenAI } from "https://esm.run/@google/genai";
+const ai = new GoogleGenAI({
+apiKey: "AIzaSyCX1kqaLlfU67RkY2nP7Y1hAPavY2D6Hh4",
+});
+async function main() {
+const response = await ai.models.generateContent({
+model: "gemini-2.5-flash",
+contents: input,
+});
+print(response.text);
+}
+await main();
