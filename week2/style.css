@@ -177,3 +177,43 @@ body {
 #disable {
     display: none;
 }
+
+.sidebar {
+    background-color: #212121;
+    border: 1px, solid, #2C2C2C;
+}
+
+.chatgpticonleft {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    margin: 5px;
+}
+
+.newchaticonleft {
+    position: absolute;
+    left: 10px;
+    top: 66px;
+    margin: 5px;
+}
+
+.searchiconleft {
+    position: absolute;
+    left: 10px;
+    top: 106px;
+    margin: 5px;
+}
+
+.imageiconleft {
+    position: absolute;
+    left: 10px;
+    top: 146px;
+    margin: 5px;
+}
+
+.upgradeiconleft {
+    position: absolute;
+    left: 10px;
+    top: 706px;
+    margin: 5px;
+}
