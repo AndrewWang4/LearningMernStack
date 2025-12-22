@@ -7,11 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="bar" id="bar">
+        <img src="chatgpt.svg" width="30px" height="30px" class="barchatgpt" />
+        <img src="sidebar.svg" width="30px" height="30px" class="barsidebar" />
+    </div>
     <div class="sidebar">
-        <img src="chatgpt.svg" width="30px" height="30px" class="chatgpticonleft" />
-        <img src="newchat.svg" width="30px" height="30px" class="newchaticonleft" />
-        <img src="searchicon.svg" width="30px" height="30px" class="searchiconleft" />
-        <img src="images.svg" width="30px" height="30px" class="imageiconleft" />
+        <img id="sidebarchatgpt" src="chatgpt.svg" width="30px" height="30px" class="chatgpticonleft" />
+        <p class="n4" id="sidebartoggletext">Open sidebar</p>
+        <img id="sidebartoggle" src="sidebar.svg" width="30px" height="30px" class="opensidebaricon">
+        <img id="chat" src="newchat.svg" width="30px" height="30px" class="newchaticonleft" />
+        <img id="search" src="searchicon.svg" width="30px" height="30px" class="searchiconleft" />
+        <img id="image" src="images.svg" width="30px" height="30px" class="imageiconleft" />
+        <p class="n1" id="chatside">New chat</p>
+        <p class="n2" id="searchside">Search chats</p>
+        <p class="n3" id="imageside">Images</p>
         <img src="upgradeicon.svg" width="30px" height="30px" class="upgradeiconleft" />
     </div>
     <p class="hoverTextStyle" id="hoverText">Add files and more</p>
